@@ -1,0 +1,171 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #F4F4F4;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+}
+header{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100px;
+}
+.navbar-nav .nav-link:hover{
+    color: #005148 !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid #005148 !important;
+}
+.active{
+    color: #005148 !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid #005148 !important;
+}
+.Subheader{
+    height: 80px;
+    border-top: 1px solid grey;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(237,254,237,1) 49%, rgba(74,152,72,1) 100%);
+}
+.Subheader__titulo{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15%;
+    color: #01415B;
+
+}
+.azul{
+    color: #01415B;
+}
+.negras{
+    font-weight: 700;
+}
+
+.verde{
+    color: #005148;
+}
+.sombratxt{
+    text-shadow: 1px 2px 3px rgba(255,255,255,0.77);
+}
+.recuadro__amarillo{
+    background-color: #CCEA8D;
+}
+
+.logo{
+    height: 4rem;
+    width: auto;
+    margin-top: 2px;
+    float: left;
+    
+  
+}
+.logo__texto{
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-left: 4px;
+    color: #01415B;
+    text-align: center;
+}
+.logo__tc{
+    border-top: 1px solid #CCEA8D;
+    font-size: 1.1rem;
+    color: #005148;
+}
+.titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.espacio{
+    margin-top: 50px;
+}
+.card, card-body, img{
+    width: 100%;
+    height: auto;
+}
+.card, card-body, p{
+    text-align: center;
+    font-weight: bold;
+    color: #01415B;
+}
+.descripcion{
+    display: block;
+}
+.descripcion__texto{
+     margin-top: 25%;
+}
+#Invitacion{
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Invitacion__texto{
+    padding-top: 15px;
+    font-weight: 600;
+    color: #005148;
+    font-size: 1.4rem;
+    text-align: end;
+}
+.Invitacion__gratis{
+    background-color: #CCEA8D;
+}
+#Footer{
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.Footer__redes{
+    display: inline-block;
+    float: left;
+    margin-left: 20%;
+}
+.Footer__textos{
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+}
+.Footer__redes__twitter{
+    width: 44px;
+    height: auto;
+}
+.Footer__redes__youtube{
+    width: 74px;
+    height: auto;
+}
+.Footer__redes__whatapp{
+    width: 44px;
+    height: auto;
+}
+.Footer__textos ul {
+    list-style: none;
+}
+.img-descripcion{
+    width: 50%;
+
+}
+#Equipo{
+    background-color: #ffffff;
+}
+.Equipo__imagen__persona{
+    width: 300px;
+}
+.Equipo__texto__persona{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #01415B;
+    margin-top: 25%;
+}
+.Equipo__texto__persona__cargo{
+    color: gray;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}
